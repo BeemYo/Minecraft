@@ -1,0 +1,31 @@
+.piece {
+    background-color: #ccc;
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.title {
+    font-size: 50px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+.text {
+    font-size: 30px;
+}
+.time {
+    padding: 30px;
+}
+.t1 {
+    padding: 10px 0 0px 0;
+    border: 4px;
+    border-style: none solid solid solid;
+}
+.t2 {
+    padding: 10px 0 0px 0;
+    border: 4px;
+    border-style: none solid none solid;
+}
+.items {
+    font-size: 30px;
+    margin-left: 15%;
+}
