@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Latest news</title>
+		<link rel="stylesheet" type="text/css" href="css/news.css">
+        <script type="text/javascript" src="js/include.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+	</head>
+    <body>
+        <header>
+            <div class="top">
+                <h1>Het laatste minecraft news</h1>
+            </div>
+            <div w3-include-html="header.html"></div>
+            <script>
+                includeHTML();
+            </script>
+        </header>
+        <div class="container">
+            <div class="piece">
+                <p class="title">Minecraft 1.15.2 is uit</p>
+            </div>
+            <div class="nested">
+                <div class="piece">
+                    <iframe id="update" height="300px" width="520px" src="https://youtube.com/embed/dsBiLOzWxG8" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="piece">
+                    <img src="assets/minecraft_update.jpg" id="update"></img>
+                </div>
+            </div>
+            <div class="piece">
+                <p class="title">Wat is er nieuw</p>
+            </div>
+            <div class="nested">
+                <div class="piece">
+                    <p class="text">In deze nieuwe grote update heeft mojang allerei nieuwe dingen geimplementeerd. Zoals nieuwe nether bloken en biomes, maar ook bijen en honingblokken. Dit is een heel handig blok, want andere bloken blijven er aan plakken maar geen slijmbloken, waardoor je er hele coole vliegmachines mee kan maken.</p>
+                </div>
+                <div class="piece" id="item_holder">
+                    <div id="item">
+                        <span>Honingblok</span>
+                        <img src="assets/honey_block.png" id="block"></img>
+                    </div>
+                    <div id="item">
+                        <span>Netherite</span>
+                        <img src="assets/netherite.png" id="block2"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

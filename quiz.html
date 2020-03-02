@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<link rel="stylesheet" type="text/css" href="css/quiz.css">
+		<script type="text/javascript" src="js/quiz.js"></script>
+        <script type="text/javascript" src="js/include.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+	</head>
+	<body>
+        <header>
+            <div class="top">
+                <h1>De Minecraft quiz!</h1>
+            </div>
+            <div w3-include-html="header.html"></div> 
+            <script>
+                includeHTML();
+            </script>
+        </header>
+		
+
+		<div class="container">
+			<div>
+				<h3>vraag 1</h3>
+				<p>Van welke game-studio is Minecraft?</p>
+				<button onclick="q1(1);">EA</button>
+				<button onclick="q1(2);">Notch</button>
+				<button onclick="q1(3);">Mojang</button>
+				<button onclick="q1(4);">Rockstar</button>
+				<p id="q1_dis"></p>
+			</div>
+			<div>
+				<h3>vraag 2</h3>
+                <p>Is een minecraft wereld oneindig?</p>
+                <button onclick="q2(1)">Nee</button>
+                <button onclick="q2(2)">In theorie wel</button>
+                <button onclick="q2(3)">Ja</button>
+                <p id="q2_dis"></p>
+			</div>
+			<div>
+				<h3>vraag 3</h3>
+                <p>Hoeveel mensen spelen Minecraft elke maand?</p>
+                <button onclick="q3(1)">55.000.000</button>
+                <button onclick="q3(2)">30.000.000</button>
+                <button onclick="q3(3)">10.000.000</button>
+                <button onclick="q3(4)">100.000</button>
+                <p id="q3_dis"></p>
+			</div>
+			<div>
+				<h3>vraag 4</h3>
+                <p>Wat is de eindbaas van Minecraft survival modus?</p>
+                <button onclick="q4(1)">herobrine</button>
+                <button onclick="q4(2)">slenderman</button>
+                <button onclick="q4(3)">ender-dragon</button>
+                <p id="q4_dis"></p>
+			</div>
+			<div>
+				<h3>vraag 5</h3>
+                <p>In welke versie kwamen de ijzeren deuren?</p>
+                <button onclick="q5(1)">1.8</button>
+                <button onclick="q5(2)">1.9</button>
+                <button onclick="q5(3)">1.10</button>
+                <button onclick="q5(4)">1.11</button>
+                <p id="q5_dis"></p>
+			</div>
+			<div>
+				<h3>vraag 6</h3>
+                <p>Een dorp heeft altijd een iron golem?</p>
+                <button onclick="q6(1)">Ja</button>
+                <button onclick="q6(2)">Nee</button>
+                <p id="q6_dis"></p>
+			</div>
+            <div>
+				<h3>vraag 7</h3>
+                <p>Welke goedje kun je in een brewingstand doen om een night vision potion te krijgen?</p>
+                <button onclick="q7(1)">Netherwarts</button>
+                <button onclick="q7(2)">Golden carrot</button>
+                <button onclick="q7(3)">glas</button>
+                <p id="q7_dis"></p>
+			</div>
+            <div>
+				<h3>vraag 8</h3>
+                <p>In welke programeertaal is Mincraft gemaakt?</p>
+                <button onclick="q8(1)">Pascal</button>
+                <button onclick="q8(2)">C++</button>
+                <button onclick="q8(3)">java</button>
+                <button onclick="q8(4)">C#</button>
+                <p id="q8_dis"></p>
+			</div>
+		</div>
+        <div class="score">
+            <button onclick="check_score();">Check score</button>
+        </div>
+        <div class="score_dis">
+            <p id="score_dis"><br />Betere score krijgen klik <a href="https://minecraft.gamepedia.com/Minecraft_Wiki">hier</a>.</p>
+        </div>
+
+	</body>
+</html>
